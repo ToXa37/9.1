@@ -6,7 +6,7 @@ def popular_words(text, words):
 
     for word in word_list:
         if word in result:
-
+            result[word] +=1
 
     return result
 
